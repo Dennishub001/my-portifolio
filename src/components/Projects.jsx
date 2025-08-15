@@ -5,7 +5,7 @@ export default function Projects() {
     {
       id: 1,
       title: "Smart Recruiter",
-      description: "A full-stack group collaboration project for technical assessment built with React, Flask, and PostgreSQL.",
+      description: "A full-stack group collaboration project for technical assessment. Built with React, Flask, and PostgreSQL.",
       technologies: ["React", "Flask", "PostgreSQL", "JWT"],
       github: "https://github.com/KhalanHappiness/smart-recruiter",
       image: "🎯",
@@ -21,38 +21,41 @@ export default function Projects() {
     {
       id: 2,
       title: "High Tackle",
-      description: "A full stack web application for managing rugby at grassroot levels .Built with React ,Flask and SQL .",
+      description: "A full stack web application for managing rugby at grassroot levels. Built with React, Flask and SQL.",
       technologies: ["React", "Flask", "PostgreSQL", "Python", "JavaScript"],
       github: "https://github.com/Dennishub001/high-tackle",
       image: "🍽️",
       highlights: [
-        "Real-time monitoring dashboard",
-        "Automated compliance reporting",
-        "Data visualization for quality metrics"
+        "Members registration",
+        "Team management",
+        "Player profiles",
+        "Coaches profiles",
+        "Match scheduling"
       ]
     },
 
     {
       id: 3,
       title: "Soma Society",
-      description: "A CLI application that manages community library to enhance the reading and writing culture.",
-      technologies: ["Python", "Flask", "React", "MySQL", "Chart.js"],
+      description: "A command-line interface (CLI) application that aims to ignite the reading and writting culture. It offers accesible and detailed books discovery and management in our communities.",
+      technologies: ["Python", "Flask", "React", "MySQL"],
       github: "https://github.com/Dennishub001/soma-society",
       image: "🥗",
       highlights: [
-        "Advanced nutritional calculations",
-        "Interactive charts and visualizations",
-        "Dietary restriction filtering"
+        "Add new book",
+        "Find books by Genre",
+        "Find book Author",
+        "List all books",
+        "Delete book",
       ]
     },
 
     {
       id: 4,
-      title: "Inventory Management API",
-      description: "RESTful API for laboratory and kitchen inventory management with automated reorder points, expiration tracking, and usage analytics. Built with Flask and PostgreSQL.",
+      title: "Wick and Whistle Pantry",
+      description: "A user-friendly recipe platform designed to help users discover, save, and share favorite recipes. Offers personalized cooking experience with favorites list and member login system.",
       technologies: ["Flask", "PostgreSQL", "Python", "REST API", "JWT"],
-      github: "https://github.com/yourusername/inventory-api",
-      demo: "https://inventory-api-docs.herokuapp.com",
+      github: "https://github.com/Algo-jtx/wick-whistle",
       image: "📦",
       highlights: [
         "Automated inventory alerts",
@@ -63,23 +66,25 @@ export default function Projects() {
 
     {
       id: 5,
-      title: "Data Visualization Dashboard",
-      description: "Interactive dashboard for visualizing food production and quality control data. Features real-time charts, trend analysis, and exportable reports using React and D3.js.",
-      technologies: ["React", "D3.js", "JavaScript", "Python", "Flask"],
-      github: "https://github.com/yourusername/data-dashboard",
-      demo: "https://food-data-dashboard.netlify.app",
+      title: "AgriDairy-Connect",
+      description: "A platform connecting dairy farmers and consumers. Provides seamless access to fresh dairy products and industry information. Creates awareness on proper handling to reduce contamination and wastage.",
+      technologies: ["HTML", "CSS", "JavaScript",],
+      github: "https://github.com/Dennishub001/AgriDairy-Connect",
       image: "📊",
       highlights: [
-        "Real-time data visualization",
-        "Customizable chart types",
-        "Export functionality for reports"
+        "Dark mode",
+        "View all dairy products",
+        "Search functionality",
+        "Add to cart"
+        
+        
       ]
     },
 
     {
       id: 6,
       title: "Quality Control Tracker",
-      description: "Web application for tracking quality control tests, managing lab results, and generating compliance reports. Combines my food science knowledge with modern web technologies.",
+      description: "Web application for tracking quality control tests and managing lab results. Generates compliance reports combining food science knowledge with modern web technologies.",
       technologies: ["React", "Flask", "MySQL", "Python", "Bootstrap"],
       github: "https://github.com/yourusername/qc-tracker",
       demo: "https://qc-tracker-demo.netlify.app",

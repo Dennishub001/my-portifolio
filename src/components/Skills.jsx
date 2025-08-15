@@ -4,54 +4,52 @@ export default function Skills() {
   const skillCategories = [
     {
       title: "Frontend Development",
-      icon: "🎨",
       skills: [
-        { name: "JavaScript", level: 90 },
-        { name: "React", level: 85 },
-        { name: "HTML5", level: 95 },
-        { name: "CSS3", level: 90 }
+        { name: "JavaScript",  },
+        { name: "React",  },
+        { name: "HTML5",  },
+        { name: "CSS3",  }
       ]
     },
+
     {
       title: "Backend Development",
-      icon: "⚙️",
       skills: [
-        { name: "Python", level: 88 },
-        { name: "Flask", level: 85 },
-        { name: "REST APIs", level: 82 },
-        { name: "Git", level: 80 }
+        { name: "Python",  },
+        { name: "Flask",  },
+        { name: "REST APIs",  },
+        { name: "Git",  }
       ]
     },
+
     {
       title: "Database Management",
-      icon: "🗄️",
       skills: [
-        { name: "PostgreSQL", level: 80 },
-        { name: "MySQL", level: 78 },
-        { name: "Database Design", level: 75 },
-        { name: "SQL", level: 85 }
+        { name: "PostgreSQL",  },
+        { name: "MySQL",  },
+        { name: "Database Design",  },
+        { name: "SQL",  }
       ]
     },
     {
-      title: "Food Science & Analysis",
-      icon: "🔬",
+      title: "Food Science & Technology",
       skills: [
-        { name: "Data Analysis", level: 92 },
-        { name: "Research Methods", level: 90 },
-        { name: "Quality Control", level: 88 },
-        { name: "Process Optimization", level: 85 }
+        { name: "Food Safety",  },
+        { name: "Product Development",  },
+        { name: "Quality Control and Assurance",  },
+        { name: "Sensory Evaluation",  }
       ]
     },
+
     {
       title: "Soft Skills & Leadership",
-      icon: "🤝",
       skills: [
-        { name: "Entrepreneurial Mindset", level: 90 },
-        { name: "Communication", level: 88 },
-        { name: "Collaboration", level: 92 },
-        { name: "Problem Solving", level: 95 },
-        { name: "Critical Thinking", level: 90 },
-        { name: "Project Management", level: 85 }
+        { name: "Project Management",  },
+        { name: "Communication", },
+        { name: "Collaboration",  },
+        { name: "Problem Solving",  },
+        { name: "Critical Thinking",  },
+        { name: "Adaptability",  }
       ]
     }
   ];
@@ -59,10 +57,10 @@ export default function Skills() {
   return (
     <section id="skills" className="skills">
       <div className="container">
-        <h2>Technical Skills</h2>
+        <h2>Technical and Soft Skills</h2>
         <p className="skills-intro">
-          A comprehensive skill set combining modern software development technologies 
-          with analytical expertise from food science background.
+          A versatile skill set that merges technical knowledge in modern software development with analytical expertise from Food Science, 
+          supported by strong interpersonal, problem-solving, and adaptability skills.
         </p>
         <div className="skills-grid">
           {skillCategories.map((category, index) => (

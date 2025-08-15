@@ -20,7 +20,7 @@ export default function About() {
               I developed in the lab now drives my approach to building efficient, scalable applications.
             </p>
             <p>
-              Through intensive training in <strong>JavaScript, React, Python, and Flask</strong>, 
+              Through intensive training in <strong> HTML,CSS,JavaScript, React, Python, and Flask</strong>, 
               I've developed expertise in creating full-stack web applications with robust database 
               systems. My scientific background enhances my ability to approach complex technical 
               challenges methodically, ensuring clean, well-documented code and thorough testing procedures.

@@ -44,14 +44,17 @@ export default function Footer() {
               <span>React</span>
               <span>Python</span>
               <span>Flask</span>
-              <span>Food Science</span>
-              <span>Data Analysis</span>
+              <span>SQL</span>
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>Agile Methodology</span>
+              <span> Analysis</span>
             </div>
           </div>
         </div>
         
         <div className="footer-bottom">
-          <p>&copy; {currentYear} Dennis Ochieng. All rights reserved.</p>
+          <p>&copy; {2025} Dennis Ochieng. All rights reserved.</p>
           <p>From Food Science to Full Stack - Crafting Solutions with Precision</p>
         </div>
       </div>
