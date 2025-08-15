@@ -43,14 +43,18 @@
 
 .category-header h3 {
   font-size: 1.3rem;
-  color: #333;
+  color: #3498db;
   margin: 0;
+  font-weight: 600;
 }
 
 .skills-list {
   display: flex;
   flex-wrap: wrap;
   gap: 0.8rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 .skill-item {
@@ -80,7 +84,7 @@
 .additional-skills h3 {
   font-size: 1.5rem;
   margin-bottom: 2rem;
-  color: #333;
+  color: #33b1f5;
 }
 
 .tech-badges {

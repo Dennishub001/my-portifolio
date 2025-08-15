@@ -36,20 +36,20 @@ export default function Skills() {
       skills: [
         { name: "Food Safety",  },
         { name: "Product Development",  },
-        { name: "Quality Control and Assurance",  },
-        { name: "Sensory Evaluation",  }
+        { name: "Quality Control ",  },
+        { name: "Quality Assurance",  }
       ]
     },
 
     {
       title: "Soft Skills & Leadership",
       skills: [
-        { name: "Project Management",  },
         { name: "Communication", },
         { name: "Collaboration",  },
         { name: "Problem Solving",  },
-        { name: "Critical Thinking",  },
-        { name: "Adaptability",  }
+        { name: "Adaptability",  },
+        { name: "Time Management",  },
+        { name: "Team Leadership",  }
       ]
     }
   ];
@@ -66,38 +66,35 @@ export default function Skills() {
           {skillCategories.map((category, index) => (
             <div key={index} className="skill-category">
               <div className="category-header">
-                <span className="category-icon">{category.icon}</span>
+                {/* <span className="category-icon">{category.icon}</span> */}
                 <h3>{category.title}</h3>
               </div>
-              <div className="skills-list">
+              <ul className="skills-list">
                 {category.skills.map((skill, skillIndex) => (
-                  <div key={skillIndex} className="skill-item">
+                  <li key={skillIndex} className="skill-item">
                     <span className="skill-name">{skill.name}</span>
-                  </div>
+                  </li>
                 ))}
-              </div>
+              </ul>
             </div>
           ))}
         </div>
         
         <div className="additional-skills">
-          <h3>Additional Technologies & Tools</h3>
+          <h3>Additional Technologies, Soft Skills & Tools</h3>
           <div className="tech-badges">
-            <span className="tech-badge">Node.js</span>
-            <span className="tech-badge">Express.js</span>
-            <span className="tech-badge">MongoDB</span>
             <span className="tech-badge">Bootstrap</span>
             <span className="tech-badge">Tailwind CSS</span>
             <span className="tech-badge">Postman</span>
             <span className="tech-badge">VS Code</span>
             <span className="tech-badge">GitHub</span>
             <span className="tech-badge">Netlify</span>
-            <span className="tech-badge">Statistical Analysis</span>
-            <span className="tech-badge">Effective and Efficient Communication</span>
+            <span className="tech-badge">Artificial Intelligence</span>
+            <span className="tech-badge">Project planning</span>
             <span className="tech-badge">Team Leadership</span>
             <span className="tech-badge">Agile Methodology</span>
-            <span className="tech-badge">Time Management</span>
-            <span className="tech-badge">Adaptability</span>
+            <span className="tech-badge">Entrepreneurship</span>
+            <span className="tech-badge">Emotional Intelligence</span>
           </div>
         </div>
       </div>
