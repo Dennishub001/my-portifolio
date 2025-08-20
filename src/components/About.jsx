@@ -26,7 +26,7 @@ export default function About() {
               challenges methodically, ensuring clean, well-documented code and thorough testing procedures.
             </p>
             <div className="resume-download">
-              <a href="/resume.pdf" className="btn btn-primary" download>
+              <a href="/resume.pdf" className="btn btn-primary" download="Dennis_Ochieng_Resume.pdf">
                 📄 Download Resume
               </a>
             </div>
@@ -49,4 +49,4 @@ export default function About() {
       </div>
     </section>
   );
-}
+}g

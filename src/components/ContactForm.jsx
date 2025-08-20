@@ -70,7 +70,7 @@ export default function ContactForm() {
               <div className="contact-icon">💼</div>
               <div>
                 <h3>LinkedIn</h3>
-                <p>linkedin.com/in/yourprofile</p>
+                <p>linkedin.com/in/dennis-ochieng</p>
               </div>
             </div>
           </div>
@@ -127,6 +127,11 @@ export default function ContactForm() {
             {submitStatus === 'success' && (
               <div className="success-message">
                 ✅ Thank you! Your message has been sent successfully.
+              </div>
+            )}
+            {submitStatus === 'error' && (
+              <div className="error-message">
+                ❌ Oops! Something went wrong. Please try again.
               </div>
             )}
           </form>
