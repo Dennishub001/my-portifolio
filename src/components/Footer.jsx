@@ -14,10 +14,10 @@ export default function Footer() {
               to create innovative solutions.
             </p>
             <div className="social-links">
-              <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/Dennishub001" target="_blank" rel="noopener noreferrer">
                 GitHub
               </a>
-              <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.linkedin.com/in/dennis-ochieng-0a37a630b/" target="_blank" rel="noopener noreferrer">
                 LinkedIn
               </a>
               <a href="mailto:ochiengdennis32@gmail.com">

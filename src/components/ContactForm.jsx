@@ -70,7 +70,14 @@ export default function ContactForm() {
               <div className="contact-icon">💼</div>
               <div>
                 <h3>LinkedIn</h3>
-                <p>linkedin.com/in/dennis-ochieng</p>
+                <a 
+                  href="https://www.linkedin.com/in/dennis-ochieng-0a37a630b/" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="btn btn-secondary"
+                >
+                  Visit LinkedIn
+                </a>
               </div>
             </div>
           </div>

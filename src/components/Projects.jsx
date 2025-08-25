@@ -71,7 +71,8 @@ export default function Projects() {
         "Dark mode",
         "View all dairy products",
         "Search functionality",
-        "Add to cart"
+        "Add to cart",
+        "Products price"
       ]
     }
   ];
